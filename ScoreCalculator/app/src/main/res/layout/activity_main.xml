@@ -20,4 +20,35 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:text="@string/color_points_start"/>
+
+    <LinearLayout
+        android:layout_below="@id/color_label"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="pressed3Fixes"
+            android:layout_height="wrap_content"
+            android:text="@string/button_3_fixes"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="pressed2Fixes"
+            android:layout_height="wrap_content"
+            android:text="@string/button_2_fixes"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="pressed1Fix"
+            android:layout_height="wrap_content"
+            android:text="@string/button_1_fix"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="pressed0Fixes"
+            android:layout_height="wrap_content"
+            android:text="@string/button_0_fixes"/>
+    </LinearLayout>
 </RelativeLayout>

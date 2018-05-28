@@ -5,7 +5,7 @@
     <string name="color_points_format">%d color points</string>
     <string name="button_3_fixes">3 Fixes</string>
     <string name="button_2_fixes">2 Fixes</string>
-    <string name="button_1_fixes">1 Fixes</string>
+    <string name="button_1_fix">1 Fix</string>
     <string name="button_0_fixes">0 Fixes</string>
     <string name="distance_label">Distances from cones:</string>
     <string name="distance_table_header">Distance [ft]</string>
