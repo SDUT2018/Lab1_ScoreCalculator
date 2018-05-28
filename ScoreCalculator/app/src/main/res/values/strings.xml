@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Score Calculator</string>
+    <string name="color_label">Color Identification:</string>
+    <string name="color_points_start">0 color points</string>
+    <string name="color_points_format">%d color points</string>
+    <string name="button_3_fixes">3 Fixes</string>
+    <string name="button_2_fixes">2 Fixes</string>
+    <string name="button_1_fixes">1 Fixes</string>
+    <string name="button_0_fixes">0 Fixes</string>
+    <string name="distance_label">Distances from cones:</string>
+    <string name="distance_table_header">Distance [ft]</string>
+    <string name="points_table_header">Points</string>
+    <string name="near_ball">Near Ball</string>
+    <string name="far_ball">Far Ball</string>
+    <string name="robot_home">Robot Home</string>
+    <string name="update_button">Update</string>
+
+
+
 </resources>
