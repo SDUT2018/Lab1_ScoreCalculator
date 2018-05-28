@@ -22,6 +22,7 @@
         android:text="@string/color_points_start"/>
 
     <LinearLayout
+        android:id="@+id/color_fix_buttons"
         android:layout_below="@id/color_label"
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -51,4 +52,64 @@
             android:layout_height="wrap_content"
             android:text="@string/button_0_fixes"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/distance_label"
+        android:layout_below="@id/color_fix_buttons"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/distance_label"/>
+
+    <TableLayout
+        android:id="@+id/distances_table"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/distance_label"
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:background="@color/tableHeaderRow">
+
+            <TextView
+                android:text=""/>
+            <TextView
+                android:gravity="center"
+                android:text="@string/distance_table_header"/>
+            <TextView
+                android:gravity="center"
+                android:text="@string/points_table_header"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/near_ball"
+                />
+            <EditText
+                android:gravity="center"
+                android:id="@+id/near_ball_distance_edittext"
+                android:inputType="number"
+                />
+            <TextView
+                android:id="@+id/near_ball_points_textview"
+                android:text="0"
+                android:gravity="center"
+                />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView/>
+            <TextView/>
+            <Button
+                android:onClick="pressedUpdate"
+                android:text="@string/update_button"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
 </RelativeLayout>
